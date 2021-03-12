@@ -1,0 +1,26 @@
+{
+  "name": "thin-javascript-layer",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "priyanga.ganapathi@zoomrx.com",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^3.0.0-rc.0",
+    "@capacitor/core": "^3.0.0-rc.0",
+    "@capacitor/device": "^0.5.6",
+    "@capacitor/splash-screen": "^0.3.6",
+    "capacitor-codepush": "github:mapiacompany/capacitor-codepush"
+  }
+}

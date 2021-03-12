@@ -1,0 +1,16 @@
+{
+  "appId": "com.example.app",
+  "appName": "code-push-2",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www/dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CodePush": {
+      "IOS_DEPLOY_KEY": "svqcsCjsJhESC0ZmUXYe3nym2mRede7REmeCX",
+      "SERVER_URL": "https://codepush.appcenter.ms/"
+    }
+  }
+}
